@@ -1,0 +1,336 @@
+@media (max-width: 500px) {
+ #nav{
+    display: none;
+ }  
+ 
+ nav{
+    display: none;
+ }
+
+  .menu{
+    display: initial;
+  }
+
+  .content{
+    display: initial;
+  }
+
+ 
+.cart-section{
+    display: initial;
+}  
+
+
+.check-out{   
+    display: initial !important;
+}
+
+
+ .main-child {
+    width: 90%;
+ }
+
+ 
+ .main-child .left {
+    display: none;
+
+ }
+
+ .main-child .right {
+    display: none;
+}
+
+.center-card-left .one {
+    width: 21vmax;
+    margin-right: 1vmax;
+}
+
+.center-card-right .one {
+    width: 21vmax;
+}
+
+.main-child .center {
+    width: 100%;
+    padding: 2vmax 0;
+}
+
+.main-child .center h2 {
+    height: 4vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1.5vmax;
+    font: 400 1rem "roboto";
+
+}
+
+.center-card-left .add {
+    padding-right: 2vmax;
+}
+
+.center-card-right .add {
+    padding-right: 2vmax;
+}
+
+.center-card-left .add button{
+    font: 600 .8rem roboto; 
+    margin-right: 1vmax;
+}
+
+.center-card-right .add button{
+    font: 600 .8rem roboto; 
+    margin-right: 1vmax;
+}
+
+
+.center-card-left .add {
+    margin-top: 1vmax;
+}
+
+.center-card-left h3 {
+    font: 600 .8rem "roboto"; 
+}
+
+.center-card-right h3 {
+    font: 600 .8rem "roboto"; 
+}
+
+
+.footer{
+    height: 17vh;
+}
+
+.footer span{
+    text-align: center;
+    /* font: 400 .3rem "roboto"; */
+    margin-top: 1vmax;
+
+}
+/* 
+.footers{
+
+    position: fixed;
+    bottom: 0%;
+} */
+
+}
+
+
+@media (min-width: 501px) and (max-width: 767px) {
+    #nav{
+    display: none;
+ }  
+ 
+ nav{
+    display: none;
+ }
+
+ .menu{
+    display: initial;
+  }
+
+  .content{
+    display: initial;
+  }
+
+
+.cart-section{
+    display: initial;
+}  
+
+
+.check-out{   
+    display: initial !important;
+}
+
+ .main-child {
+    width: 90%;
+ }
+
+ 
+ .main-child .left {
+    display: none;
+
+ }
+
+ .main-child .right {
+    display: none;
+}
+
+
+
+.center-card-right .one {
+    width: 30vmax;
+    height: 17vh;
+}
+
+
+.center-card-left .one {
+    width: 30vmax;
+    height: 17vh;
+}
+
+.main-child .center {
+    width: 100%;
+    padding: 2vmax 0;
+}
+
+.main-child .center h2 {
+    height: 4vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1.5vmax;
+    font: 400 1rem "roboto";
+
+}
+
+.center-card-left .add {
+    padding-right: 2vmax;
+}
+
+.center-card-right .add {
+    padding-right: 2vmax;
+}
+
+.center-card-left .add button{
+    font: 600 .8rem roboto; 
+    margin-right: 1vmax;
+}
+
+.center-card-right .add button{
+    font: 600 .8rem roboto; 
+    margin-right: 1vmax;
+}
+
+
+.center-card-left .add {
+    margin-top: 1vmax;
+}
+
+.center-card-left h3 {
+    font: 600 .8rem "roboto"; 
+}
+
+.center-card-right h3 {
+    font: 600 .8rem "roboto"; 
+}
+
+
+.footer{
+    height: 17vh;
+}
+
+.footer span{
+    font: 400 1rem roboto;
+    margin-top: 1vmax;
+
+} 
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    #nav{
+    display: none;
+ }  
+ 
+ nav{
+    display: none;
+ }
+
+ .menu{
+    display: initial;
+  }
+
+  .content{
+    display: initial;
+  }
+
+  .cart-section{
+    display: initial;
+}  
+
+
+.check-out{   
+    display: initial !important;
+}
+
+ .main-child {
+    width: 90%;
+ }
+
+ 
+ .main-child .left {
+    display: none;
+
+ }
+
+ .main-child .right {
+    display: none;
+}
+
+
+
+.center-card-right .one {
+    width: 30vmax;
+    height: 17vh;
+}
+
+
+.center-card-left .one {
+    width: 30vmax;
+    height: 17vh;
+}
+
+.main-child .center {
+    width: 100%;
+    padding: 2vmax 0;
+}
+
+.main-child .center h2 {
+    height: 4vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1.5vmax;
+    font: 400 1rem "roboto";
+
+}
+
+.center-card-left .add {
+    padding-right: 2vmax;
+}
+
+.center-card-right .add {
+    padding-right: 2vmax;
+}
+
+.center-card-left .add button{
+    font: 600 .8rem roboto; 
+    margin-right: 1vmax;
+}
+
+.center-card-right .add button{
+    font: 600 .8rem roboto; 
+    margin-right: 1vmax;
+}
+
+
+.center-card-left .add {
+    margin-top: 1vmax;
+}
+
+.center-card-left h3 {
+    font: 600 .8rem "roboto"; 
+}
+
+.center-card-right h3 {
+    font: 600 .8rem "roboto"; 
+}
+
+
+.footer{
+    height: 17vh;
+}
+
+.footer span{
+    font: 400 1rem roboto;
+    margin-top: 1vmax;
+
+} 
+}

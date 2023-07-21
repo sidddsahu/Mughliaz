@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    /* height: 100%; */
+    /* width: 100%; */
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+
+  } 
+
+  /* -----------------------------------------------Menubar------------------------------------ */
+
+  .menu{
+    display: none;
+    /* height: 4vh; */
+    padding: 1.5vmax 2vmax;
+    border-radius: 25px;
+    background-color: #D4AF37;
+    position: fixed;
+    right: 4%;
+    bottom: 8%;
+    z-index: 100;
+  }
+
+  .menu h3{
+    font-style: italic;
+  }
+
+  .blue{
+    /* height: 2vh; */
+    padding: 1vmax;
+    background-color: #D4AF37;
+  }
+
+.content{
+    position: fixed;
+    z-index: 100;
+    height: 100vh;
+    top: 0%;
+    width: 50vw;
+    display: flex;
+    transition: 0.5s;
+    transform: translateX(-110%);
+    flex-direction: column;
+    background-color: white;
+    display: none;
+}
+
+.content h1{
+    margin-top: 1vmax;
+    margin-left: 18vmax;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font: 500 1rem roboto;
+    /* border-bottom: 1px solid black; */
+    padding: .5vmax .5vmax;
+    background-color: #000000;
+}
+
+.content a{
+    margin-left: 2vmax; 
+    /* border-bottom: 2px solid  black; */
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+
+.content .new-line{
+    margin-top: 2vmax;
+    margin-bottom: 4vmax;
+    height: 2px;
+    width: 50vw;
+    background-color: #9f9f9f;
+}
+
+/* -------------------------------------------Navbar------------------------------------------- */
+
+#nav {
+    height: 15vh;
+    width: 100vw;
+    background-color: #000000;
+}
+
+nav {
+    height: 15vh;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav button {
+    padding: .7vmax 1.5vmax;
+    border-radius: 7px;
+    font: 500 1rem "roboto";
+    border: none;
+    outline: none;
+    background-color: #FFBE00;
+
+}
+
+.line {
+    width: 80vw;
+    margin: auto;
+    height: 2px;
+    background-color: grey;
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+}
+
+
+
+.main-child {
+    /* height: 100%; */
+    width: 80%;
+    /* background-color: blue; */
+    margin: auto;
+    display: flex;
+}
+
+/* -----------------------------main-left-Css------------------------------------ */
+
+.main-child .left {
+    position: sticky;
+    top: 0%;
+    width: 18%;
+    height: 65vh;
+    box-shadow: 2px 2px 2px 2px rgb(196, 196, 196);
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+
+
+.main-child .left a {
+    padding: 1vmax .7vmax;
+    font: 400 1rem "roboto";
+   color: #000000;
+    /* margin-bottom: 1.5vmax; */
+    text-decoration: none;
+}
+
+/* -------------------------------------------main-child-centre-------------------------------- */
+
+.main-child .center {
+    height: 100%;
+    margin-left: .5vmax;
+    width: 50%;
+    display: flex;
+    flex-direction:column ;
+    background-color: white;
+}
+
+.main-child .center h2 {
+    height: 2.5vmax;
+    border-radius: 5px;
+    padding: 7px;
+    font: 400 1.2rem "pt serif";
+    color: white;
+    /* width: 50%; */
+    background-color: #D4AF37;
+}
+
+.center-card {
+    margin-top: .7vmax;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+
+}
+
+.center-card-left {
+    /* background-color: aqua; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-card-left .one {
+    border-radius: 8px 8px 0px 0px;
+    height: 12vmax;
+    width: 20vmax;
+    margin-bottom: .5vmax;
+}
+
+
+
+.center-card-left .add {
+    margin-bottom: 1vmax;
+    padding-right: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.center-card-left .add button{
+    padding: .5vmax .5vmax;
+    background-color: #FFBE00;
+    border: none;
+    font: 600 .9rem "roboto";
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.center-card-right .add button{
+    padding: .5vmax .5vmax;
+    background-color: #FFBE00;
+    border: none;
+    font: 600 .9rem roboto;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.center-card-left h3 {
+    margin-top: 1vmax;
+    font: 700 1rem "roboto";
+    margin-bottom: 2vmax;
+}
+
+.center-card-right {
+    /* background-color: orange; */
+    width: 50%;
+    margin-left: 1vmax;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-card-right .one {
+    border-radius: 8px 8px 0px 0px;
+    height: 12vmax;
+    width: 19vmax;
+    margin-bottom: .5vmax;
+}
+
+.center-card-right .add {
+    margin-bottom: 1vmax;
+    padding-right: 1vmax;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-card-right h3 {
+    margin-top: 1vmax;
+    font: 600 1rem "roboto";
+    margin-bottom: 2vmax;
+}
+
+.centre-box1{
+    margin-top: 1vmax;
+}
+
+
+/* ------------------------------------main-child-right------------------------------------- */
+.main-child .right {
+    position: sticky;
+    top: 0%;
+    width: 32%;
+    border: 1px solid rgb(227, 225, 225);
+    margin-left: .5vmax;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+}
+
+.cart::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.right h2{
+    padding: .5vmax 0;
+    font: 700 1.5rem "pt serif";
+    text-align: center;
+    background-color: #D4AF37;
+}
+
+
+.right .cart{
+    height: 50.5vh;
+    /* background-color: grey; */
+    overflow-y: scroll;
+}
+
+ .cart ol li{
+    margin-top: .5vmax;
+    color: #000000;
+    list-style: circle;
+
+}
+
+
+.right .total{
+    width: 50vw;
+    height: 6vh;
+    /* background-color: blue  ; */
+    padding: .6vmax;
+}
+
+.right h1{
+    text-align: center;
+    padding: 1.5vmax 0;
+    bottom: 0%;
+    position: sticky;
+    bottom: 0%;
+    width: 100%;
+    font: 500 1.2rem roboto;
+    background-color: #D4AF37;
+} 
+
+/* ------------------------------------------Footer-section----------------------------- */
+
+.footer{
+    height: 20vh;
+    margin-top: 1vmax;
+    width: 100vw;
+    color: white;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer p{
+    margin-bottom:.5vmax ;
+    font: 400 1rem "roboto";
+}
+
+.footer h3{
+    margin-bottom: 2.5vmax;
+    font: 400 1rem "pt serif";
+
+}
+
+.footer span{
+    text-align: center;
+    font: 400 1rem "roboto";
+}
+
+
+/* --------------------------------------Cart-section--------------------------------- */
+
+.check-out{
+    height: 6vh;
+    width: 100vw !important;
+    display: flex !important ;
+    justify-content: flex-end !important;
+    align-items: end !important;
+    background-color:red;
+    display: none !important;
+}
+
+.check-out button{
+    
+    height: 6vh;
+    /* height: 100%; */
+    width: 20vmax;
+    font: 500 1.3rem "roboto";
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #FFBE00;
+}
+
+.cart-section{
+    transform: translateX(100%);
+    display: none !important;
+    height: 100vh;
+    top: 0%;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    z-index: 500;
+   
+}
+
+.cart-section h2{
+     padding: 1vmax 0;
+    font: 700 1.5rem "pt serif";
+    text-align: center;
+    background-color: #D4AF37;  
+}
+
+.cart-section .cart{
+    height: 78vh;
+    padding: 1vmax 3vmax;
+}
+
+.cart-section .total{
+    padding: 1vmax;
+    margin-bottom: 1vmax;
+    font: 700 1.5rem "roboto";
+}
+
+.cart-section ol li{
+    margin-top: 2vmax;
+    font: 500 1.1rem "roboto";
+}
+
+.cart-section h1{
+    text-align: center;
+    padding: 4vmax 0;
+    bottom: 0%;
+    position: sticky;
+    bottom: 0%;
+    width: 100%;
+    font: 500 1.2rem roboto;
+    background-color: #D4AF37;
+} 
+
