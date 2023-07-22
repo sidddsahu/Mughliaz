@@ -120,21 +120,23 @@
 <!-- ------------------------Left container-------------------------------------->
 
                     <div class="left">
-                        <a class="blue" href="/Index.html">All</a>
-                        <a href="/starter.html">MUTTON STARTER</a>
-                        <a href="/chickencombo.html">CHICKEN COMBOS</a>
-                        <a href="/muttoncombo.html">MUTTON COMBOS</a>
-                        <a href="/chickenstarter.html">CHICKEN STARTERS</a>
-                        <a href="">CHICKEN MAIN COURSE</a>
-                        <a href="">MUTTON MAIN COURSE.</a>
-                        <a href="">DESSERTS</a>
-                        <a href="">DIY (DO IT YOURSELF) BOXES</a>
+                       <a href="#" onclick="showPage('')">All</a> 
+                       <a href="#home" onclick="showPage('home')">MUTTON STARTER</a> 
+                       <a href="#about" onclick="showPage('about')">CHICKEN COMBOS</a> 
+                       <a href="#services" onclick="showPage('services')">MUTTON COMBOS</a> 
+                       <a href="#portfolio" onclick="showPage('portfolio')">CHICKEN STARTER</a> 
+                       
+                        <a href="#">CHICKEN MAIN COURSE</a>
+                        <a href="#">MUTTON MAIN COURSE.</a>
+                        <a href="#">DESSERTS</a>
+                        <!-- <a href="">DIY (DO IT YOURSELF) BOXES</a> -->
                     </div>
 
                     <!-- ----------------------  Mutton Starter Start ---------------------------- -->
 
                     <div class="center">
-                        <div class="centre-box">
+                        <div id="new" class="all" style="display: initial;">
+                        <section id="home" class="centre-box page" style="display: none;">
                             <h2>MUTTON STARTER</h2>
                             <div class="center-card">
                                 <div class="center-card-left">
@@ -168,14 +170,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
 
                         <!-- ------------------Mutton starter end --------------------------------- -->
 
 
                         <!-- --------------------- Chicken Combo start--------------------------------- -->
 
-                        <div class="centre-box1">
+                        <section id="about" class="page" style="display: none;" >
                             <h2>CHICKEN COMBOS</h2>
                             <div class="center-card">
                                 <div class="center-card-left">
@@ -209,7 +211,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        
 
                         <!-- ----------------------------- Second--------------------------------- -->
 
@@ -316,11 +318,12 @@
                             </div>
                         </div>
 
+                    </section>
                         <!-- ---------------------Chicken combo End-------------------------------- -->
 
                         <!-- ---------------------- Mutton combo start------------------------------ -->
 
-                        <div class="centre-box1">
+                        <section id="services" class="page" style="display: none;">
                             <h2>MUTTON COMBOS</h2>
                             <div class="center-card">
                                 <div class="center-card-left">
@@ -432,7 +435,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
 
 
 
@@ -441,7 +444,7 @@
 
                         <!-- --------------------Chicken Starter Start------------------------------- -->
 
-                        <div class="centre-box1">
+                        <section id="portfolio" class="page" style="display:none;">
                             <h2>CHICKEN STARTER</h2>
                             <div class="center-card">
                                 <div class="center-card-left">
@@ -577,7 +580,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
+                    </div> 
                     </div>
 
 <!----------------------Right---------------------------------------------- -->
@@ -594,10 +598,11 @@
                         <h1>PROCEED TO CHECKOUT</h1>
                     </div>
                     </div>
-                </div>
+               </div>
             </div>
         </div>
-        
+     
+    </div>
 
 <!-- -------------------------Footer------------------------------------------------ -->
 

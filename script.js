@@ -71,3 +71,39 @@ content.addEventListener("click",function(){
   content.style.transform = "translateX(-110%)"
 })
 
+
+
+// ---------------------------------------------tabs----------------------------
+
+function showPage(pageId) {
+  const all = document.querySelectorAll(".all")
+  const pages = document.querySelectorAll('.page');
+  const links = document.querySelectorAll('.left  a');
+  pages.forEach(page => {
+      if (page.id === pageId) {
+          page.style.display = 'block';
+      } else {
+          page.style.display = 'none';
+      }
+  });
+
+  all.forEach(page =>{
+    page.style.display = "initial"
+  })
+  
+
+    // Remove the 'active' class from all links first
+    links.forEach(link => {
+      link.classList.remove('active');
+  });
+
+  // Add the 'active' class to the clicked link
+  const activeLink = document.querySelector(`.left  a[href="#${pageId}"]`);
+  activeLink.classList.add('active');
+
+}
+
+
+
+
+

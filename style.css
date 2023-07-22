@@ -218,15 +218,34 @@ nav button {
     /* background-color: green; */
 }
 
+  /* Highlight the active link */
+  .main-child .left  a.active {
+   
+    background-color: #D4AF37;
+}
 
+section {
+    display: none;
+    margin-bottom: 20px;
+}
 
-.main-child .left a {
+section.active {
+    display: block;
+}
+
+.main-child .left  a {
+   
     padding: 1vmax .7vmax;
     font: 300 .8rem "pt serif";
    color: #000000;
     /* margin-bottom: 1.5vmax; */
     text-decoration: none;
 }
+
+
+
+
+
 
 /* -------------------------------------------main-child-centre-------------------------------- */
 
@@ -362,6 +381,8 @@ nav button {
 .centre-box1{
     /* margin-top: 1vmax; */
 }
+
+
 
 
 /* ------------------------------------main-child-right------------------------------------- */
