@@ -47,37 +47,6 @@ function removeCartItem(productName) {
     }
   }
 
-  function increaseQuantity(productName, price) {
-    const cartItem = cartItems.find(item => item.name === productName);
-  
-    if (cartItem) {
-      cartItem.quantity++;
-      cartItem.itemPrice += price;
-      totalPrice += price;
-      updateCart();
-    }
-  }
-
-  function decreaseQuantity(productName, price) {
-    const cartItem = cartItems.find(item => item.name === productName);
-  
-    if (cartItem && cartItem.quantity > 1) {
-      cartItem.quantity--;
-      cartItem.itemPrice -= price;
-      totalPrice -= price;
-      updateCart();
-    }
-  }
-
-// Optional: Clear cart and reset total price
-function clearCart() {
-  cartItems = [];
-  totalPrice = 0;
-  updateCart();
-}
-
-
-
 var menu = document.querySelector(".menu")
 var cross = document.querySelector("#cross")
 var content = document.querySelector(".content")
@@ -98,12 +67,7 @@ menu.addEventListener("click",function(){
   content.style.transform = "translateY(-0%)"
 })
 
-
-cross.addEventListener("click",function(){ 
-  content.style.transform = "translateX(-110%)"
-})
-
 content.addEventListener("click",function(){ 
-  content.style.transform = "translateY(-0%)"
+  content.style.transform = "translateX(-110%)"
 })
 
